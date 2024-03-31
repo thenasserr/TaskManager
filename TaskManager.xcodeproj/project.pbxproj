@@ -31,6 +31,10 @@
 		D627991D2BB9009100B7A021 /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D627991A2BB9009100B7A021 /* Kanit-SemiBold.ttf */; };
 		D627991F2BB900EE00B7A021 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627991E2BB900EE00B7A021 /* Fonts.swift */; };
 		D62799222BB9049100B7A021 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62799212BB9049100B7A021 /* Colors.xcassets */; };
+		D62799262BB9098100B7A021 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D62799252BB9098100B7A021 /* .swiftlint.yml */; };
+		D627992B2BB90A4D00B7A021 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D627992A2BB90A4D00B7A021 /* Localizable.strings */; };
+		D627992D2BB90A5E00B7A021 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = D627992C2BB90A5E00B7A021 /* swiftgen.yml */; };
+		D62799302BB90A9300B7A021 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627992F2BB90A9300B7A021 /* Strings+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		D627991A2BB9009100B7A021 /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
 		D627991E2BB900EE00B7A021 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		D62799212BB9049100B7A021 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D62799252BB9098100B7A021 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D627992A2BB90A4D00B7A021 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D627992C2BB90A5E00B7A021 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		D627992F2BB90A9300B7A021 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,8 @@
 		D62798B62BB89DB700B7A021 = {
 			isa = PBXGroup;
 			children = (
+				D62799252BB9098100B7A021 /* .swiftlint.yml */,
+				D627992C2BB90A5E00B7A021 /* swiftgen.yml */,
 				D62798C12BB89DB700B7A021 /* TaskManager */,
 				D62798F72BB8D3F600B7A021 /* Utilities */,
 				D62799092BB8D69E00B7A021 /* Extensions */,
@@ -132,10 +142,8 @@
 		D62798C12BB89DB700B7A021 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				D62799232BB9092000B7A021 /* Delegates */,
 				D62798F52BB8D3D900B7A021 /* Scenes */,
-				D62798C22BB89DB700B7A021 /* AppDelegate.swift */,
-				D62798C42BB89DB700B7A021 /* SceneDelegate.swift */,
-				D62798D02BB89DB900B7A021 /* LaunchScreen.storyboard */,
 				D62798D32BB89DB900B7A021 /* Info.plist */,
 				D62798CB2BB89DB700B7A021 /* TaskManager.xcdatamodeld */,
 			);
@@ -257,6 +265,9 @@
 		D62799142BB9005600B7A021 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D62799292BB90A4500B7A021 /* Localization */,
+				D62799282BB90A3E00B7A021 /* Generated */,
+				D62799242BB9092E00B7A021 /* LaunchScreen */,
 				D62799202BB9048200B7A021 /* Assets */,
 				D62799152BB9005900B7A021 /* Fonts */,
 			);
@@ -284,6 +295,39 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		D62799232BB9092000B7A021 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D62798C22BB89DB700B7A021 /* AppDelegate.swift */,
+				D62798C42BB89DB700B7A021 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D62799242BB9092E00B7A021 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D62798D02BB89DB900B7A021 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		D62799282BB90A3E00B7A021 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				D627992F2BB90A9300B7A021 /* Strings+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		D62799292BB90A4500B7A021 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D627992A2BB90A4D00B7A021 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,6 +335,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D62798EC2BB89DB900B7A021 /* Build configuration list for PBXNativeTarget "TaskManager" */;
 			buildPhases = (
+				D627992E2BB90A7100B7A021 /* swiftgen */,
+				D62799272BB9099700B7A021 /* swiftlint */,
 				D62798BB2BB89DB700B7A021 /* Sources */,
 				D62798BC2BB89DB700B7A021 /* Frameworks */,
 				D62798BD2BB89DB700B7A021 /* Resources */,
@@ -388,7 +434,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D627992D2BB90A5E00B7A021 /* swiftgen.yml in Resources */,
 				D62799062BB8D62700B7A021 /* OnboardingData.json in Resources */,
+				D627992B2BB90A4D00B7A021 /* Localizable.strings in Resources */,
 				D62798D22BB89DB900B7A021 /* LaunchScreen.storyboard in Resources */,
 				D62799102BB8D79200B7A021 /* OnboardingViewController.xib in Resources */,
 				D627991C2BB9009100B7A021 /* Kanit-Regular.ttf in Resources */,
@@ -398,6 +446,7 @@
 				D62798CF2BB89DB900B7A021 /* Assets.xcassets in Resources */,
 				D627991B2BB9009100B7A021 /* Kanit-Medium.ttf in Resources */,
 				D62799022BB8D58200B7A021 /* OnboardingCollectionViewCell.xib in Resources */,
+				D62799262BB9098100B7A021 /* .swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +466,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D62799272BB9099700B7A021 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi \n\n";
+		};
+		D627992E2BB90A7100B7A021 /* swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: get not installed, download from https://github.com/realm/SwiftLint\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D62798BB2BB89DB700B7A021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -424,6 +512,7 @@
 			files = (
 				D62798FD2BB8D46600B7A021 /* PageControl.swift in Sources */,
 				D627990C2BB8D6B300B7A021 /* +JSONDecoder.swift in Sources */,
+				D62799302BB90A9300B7A021 /* Strings+Generated.swift in Sources */,
 				D62798C32BB89DB700B7A021 /* AppDelegate.swift in Sources */,
 				D62799082BB8D67700B7A021 /* OnboardingViewModel.swift in Sources */,
 				D62798CD2BB89DB700B7A021 /* TaskManager.xcdatamodeld in Sources */,
@@ -607,6 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9VC2L39AT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -634,6 +724,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9VC2L39AT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
