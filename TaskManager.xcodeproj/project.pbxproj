@@ -9,14 +9,28 @@
 /* Begin PBXBuildFile section */
 		D62798C32BB89DB700B7A021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798C22BB89DB700B7A021 /* AppDelegate.swift */; };
 		D62798C52BB89DB700B7A021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798C42BB89DB700B7A021 /* SceneDelegate.swift */; };
-		D62798C72BB89DB700B7A021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798C62BB89DB700B7A021 /* ViewController.swift */; };
-		D62798CA2BB89DB700B7A021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62798C82BB89DB700B7A021 /* Main.storyboard */; };
 		D62798CD2BB89DB700B7A021 /* TaskManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D62798CB2BB89DB700B7A021 /* TaskManager.xcdatamodeld */; };
 		D62798CF2BB89DB900B7A021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62798CE2BB89DB900B7A021 /* Assets.xcassets */; };
 		D62798D22BB89DB900B7A021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62798D02BB89DB900B7A021 /* LaunchScreen.storyboard */; };
 		D62798DD2BB89DB900B7A021 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798DC2BB89DB900B7A021 /* TaskManagerTests.swift */; };
 		D62798E72BB89DB900B7A021 /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798E62BB89DB900B7A021 /* TaskManagerUITests.swift */; };
 		D62798E92BB89DB900B7A021 /* TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798E82BB89DB900B7A021 /* TaskManagerUITestsLaunchTests.swift */; };
+		D62798FD2BB8D46600B7A021 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798FC2BB8D46600B7A021 /* PageControl.swift */; };
+		D62799012BB8D58200B7A021 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62798FF2BB8D58200B7A021 /* OnboardingCollectionViewCell.swift */; };
+		D62799022BB8D58200B7A021 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62799002BB8D58200B7A021 /* OnboardingCollectionViewCell.xib */; };
+		D62799042BB8D5CA00B7A021 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62799032BB8D5CA00B7A021 /* OnboardingModel.swift */; };
+		D62799062BB8D62700B7A021 /* OnboardingData.json in Resources */ = {isa = PBXBuildFile; fileRef = D62799052BB8D62700B7A021 /* OnboardingData.json */; };
+		D62799082BB8D67700B7A021 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62799072BB8D67700B7A021 /* OnboardingViewModel.swift */; };
+		D627990C2BB8D6B300B7A021 /* +JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627990B2BB8D6B300B7A021 /* +JSONDecoder.swift */; };
+		D627990F2BB8D79200B7A021 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627990D2BB8D79200B7A021 /* OnboardingViewController.swift */; };
+		D62799102BB8D79200B7A021 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D627990E2BB8D79200B7A021 /* OnboardingViewController.xib */; };
+		D62799132BB8DA3500B7A021 /* UICollectionVeiw+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62799122BB8DA3500B7A021 /* UICollectionVeiw+Extension.swift */; };
+		D62799172BB9007100B7A021 /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62799162BB9007100B7A021 /* Kanit-Bold.ttf */; };
+		D627991B2BB9009100B7A021 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62799182BB9009000B7A021 /* Kanit-Medium.ttf */; };
+		D627991C2BB9009100B7A021 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62799192BB9009100B7A021 /* Kanit-Regular.ttf */; };
+		D627991D2BB9009100B7A021 /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D627991A2BB9009100B7A021 /* Kanit-SemiBold.ttf */; };
+		D627991F2BB900EE00B7A021 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627991E2BB900EE00B7A021 /* Fonts.swift */; };
+		D62799222BB9049100B7A021 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62799212BB9049100B7A021 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +54,6 @@
 		D62798BF2BB89DB700B7A021 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62798C22BB89DB700B7A021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62798C42BB89DB700B7A021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D62798C62BB89DB700B7A021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D62798C92BB89DB700B7A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62798CC2BB89DB700B7A021 /* TaskManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManager.xcdatamodel; sourceTree = "<group>"; };
 		D62798CE2BB89DB900B7A021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62798D12BB89DB900B7A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,22 @@
 		D62798E22BB89DB900B7A021 /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62798E62BB89DB900B7A021 /* TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
 		D62798E82BB89DB900B7A021 /* TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D62798FC2BB8D46600B7A021 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		D62798FF2BB8D58200B7A021 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		D62799002BB8D58200B7A021 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		D62799032BB8D5CA00B7A021 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		D62799052BB8D62700B7A021 /* OnboardingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OnboardingData.json; sourceTree = "<group>"; };
+		D62799072BB8D67700B7A021 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		D627990B2BB8D6B300B7A021 /* +JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+JSONDecoder.swift"; sourceTree = "<group>"; };
+		D627990D2BB8D79200B7A021 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D627990E2BB8D79200B7A021 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		D62799122BB8DA3500B7A021 /* UICollectionVeiw+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionVeiw+Extension.swift"; sourceTree = "<group>"; };
+		D62799162BB9007100B7A021 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		D62799182BB9009000B7A021 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		D62799192BB9009100B7A021 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		D627991A2BB9009100B7A021 /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		D627991E2BB900EE00B7A021 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		D62799212BB9049100B7A021 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				D62798C12BB89DB700B7A021 /* TaskManager */,
+				D62798F72BB8D3F600B7A021 /* Utilities */,
+				D62799092BB8D69E00B7A021 /* Extensions */,
+				D62799142BB9005600B7A021 /* Resources */,
 				D62798DB2BB89DB900B7A021 /* TaskManagerTests */,
 				D62798E52BB89DB900B7A021 /* TaskManagerUITests */,
 				D62798C02BB89DB700B7A021 /* Products */,
@@ -101,11 +132,9 @@
 		D62798C12BB89DB700B7A021 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				D62798F52BB8D3D900B7A021 /* Scenes */,
 				D62798C22BB89DB700B7A021 /* AppDelegate.swift */,
 				D62798C42BB89DB700B7A021 /* SceneDelegate.swift */,
-				D62798C62BB89DB700B7A021 /* ViewController.swift */,
-				D62798C82BB89DB700B7A021 /* Main.storyboard */,
-				D62798CE2BB89DB900B7A021 /* Assets.xcassets */,
 				D62798D02BB89DB900B7A021 /* LaunchScreen.storyboard */,
 				D62798D32BB89DB900B7A021 /* Info.plist */,
 				D62798CB2BB89DB700B7A021 /* TaskManager.xcdatamodeld */,
@@ -128,6 +157,131 @@
 				D62798E82BB89DB900B7A021 /* TaskManagerUITestsLaunchTests.swift */,
 			);
 			path = TaskManagerUITests;
+			sourceTree = "<group>";
+		};
+		D62798F52BB8D3D900B7A021 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D62798F62BB8D3DD00B7A021 /* Onboarding */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D62798F62BB8D3DD00B7A021 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D62798FE2BB8D57200B7A021 /* Cell */,
+				D62799032BB8D5CA00B7A021 /* OnboardingModel.swift */,
+				D62799052BB8D62700B7A021 /* OnboardingData.json */,
+				D62799072BB8D67700B7A021 /* OnboardingViewModel.swift */,
+				D627990D2BB8D79200B7A021 /* OnboardingViewController.swift */,
+				D627990E2BB8D79200B7A021 /* OnboardingViewController.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D62798F72BB8D3F600B7A021 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D62798FA2BB8D44000B7A021 /* Custom Views */,
+				D62798F92BB8D43300B7A021 /* Router */,
+				D62798F82BB8D40400B7A021 /* Coordnator */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D62798F82BB8D40400B7A021 /* Coordnator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordnator;
+			sourceTree = "<group>";
+		};
+		D62798F92BB8D43300B7A021 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D62798FA2BB8D44000B7A021 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D62798FB2BB8D44B00B7A021 /* PageControl */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D62798FB2BB8D44B00B7A021 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D62798FC2BB8D46600B7A021 /* PageControl.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		D62798FE2BB8D57200B7A021 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D62798FF2BB8D58200B7A021 /* OnboardingCollectionViewCell.swift */,
+				D62799002BB8D58200B7A021 /* OnboardingCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D62799092BB8D69E00B7A021 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D62799112BB8DA1700B7A021 /* UICollectionView */,
+				D627990A2BB8D6A700B7A021 /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D627990A2BB8D6A700B7A021 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D627990B2BB8D6B300B7A021 /* +JSONDecoder.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D62799112BB8DA1700B7A021 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D62799122BB8DA3500B7A021 /* UICollectionVeiw+Extension.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		D62799142BB9005600B7A021 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D62799202BB9048200B7A021 /* Assets */,
+				D62799152BB9005900B7A021 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D62799152BB9005900B7A021 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D62799182BB9009000B7A021 /* Kanit-Medium.ttf */,
+				D62799192BB9009100B7A021 /* Kanit-Regular.ttf */,
+				D627991A2BB9009100B7A021 /* Kanit-SemiBold.ttf */,
+				D62799162BB9007100B7A021 /* Kanit-Bold.ttf */,
+				D627991E2BB900EE00B7A021 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D62799202BB9048200B7A021 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D62798CE2BB89DB900B7A021 /* Assets.xcassets */,
+				D62799212BB9049100B7A021 /* Colors.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +388,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62799062BB8D62700B7A021 /* OnboardingData.json in Resources */,
 				D62798D22BB89DB900B7A021 /* LaunchScreen.storyboard in Resources */,
+				D62799102BB8D79200B7A021 /* OnboardingViewController.xib in Resources */,
+				D627991C2BB9009100B7A021 /* Kanit-Regular.ttf in Resources */,
+				D62799172BB9007100B7A021 /* Kanit-Bold.ttf in Resources */,
+				D62799222BB9049100B7A021 /* Colors.xcassets in Resources */,
+				D627991D2BB9009100B7A021 /* Kanit-SemiBold.ttf in Resources */,
 				D62798CF2BB89DB900B7A021 /* Assets.xcassets in Resources */,
-				D62798CA2BB89DB700B7A021 /* Main.storyboard in Resources */,
+				D627991B2BB9009100B7A021 /* Kanit-Medium.ttf in Resources */,
+				D62799022BB8D58200B7A021 /* OnboardingCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +422,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62798C72BB89DB700B7A021 /* ViewController.swift in Sources */,
+				D62798FD2BB8D46600B7A021 /* PageControl.swift in Sources */,
+				D627990C2BB8D6B300B7A021 /* +JSONDecoder.swift in Sources */,
 				D62798C32BB89DB700B7A021 /* AppDelegate.swift in Sources */,
+				D62799082BB8D67700B7A021 /* OnboardingViewModel.swift in Sources */,
 				D62798CD2BB89DB700B7A021 /* TaskManager.xcdatamodeld in Sources */,
+				D62799042BB8D5CA00B7A021 /* OnboardingModel.swift in Sources */,
+				D627990F2BB8D79200B7A021 /* OnboardingViewController.swift in Sources */,
+				D62799132BB8DA3500B7A021 /* UICollectionVeiw+Extension.swift in Sources */,
+				D627991F2BB900EE00B7A021 /* Fonts.swift in Sources */,
 				D62798C52BB89DB700B7A021 /* SceneDelegate.swift in Sources */,
+				D62799012BB8D58200B7A021 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D62798C82BB89DB700B7A021 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D62798C92BB89DB700B7A021 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D62798D02BB89DB900B7A021 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +611,6 @@
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +638,6 @@
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
