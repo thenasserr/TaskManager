@@ -1,0 +1,21 @@
+[
+    {
+        "id" : 1,
+        "image" : "onboarding/1",
+        "title" : "Welcome 👋",
+        "subtitle" : "to Your Productivity Hub."
+    },
+    {
+        "id" : 2,
+        "image" : "onboarding/2",
+        "title" : "Start 🚀",
+        "subtitle" : "Your Efficiency Journey Here."
+    },
+    {
+        "id" : 3,
+        "image" : "onboarding/3",
+        "title" : "Unlock 🔓",
+        "subtitle" : "Your Organizational Potential."
+    }
+]
+
